@@ -1,6 +1,0 @@
-Nome: Kaio Eduardo Soares Fragoso
-Idade: 17 anos
-Conhecimento técnico: Um pouquinho de tudo
-Mora com: Mãe, padrasto e irmã
-Gosta de: Futebol, futsal, música e arbitragem
-Trabalho: Ainda não trabalho, mas gostaria de trabalhar com front-end ou banco de dados.
