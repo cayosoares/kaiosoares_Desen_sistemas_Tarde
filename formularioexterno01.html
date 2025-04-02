@@ -3,120 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario Externo 01</title>
-    <link rel="stylesheet" href="../normalize.css"></link>
+    <title>Formulário Externo 01</title>
+    <link rel="stylesheet" href="css/style.css">
     <style rel="stylesheet">
-        *,*:before,*:after{
+        *,*::before,*::after{
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
-
         }
         .menu-select{
             float: right;
             margin-top: -60px;
         }
         .clear{
-            clear: both;
+            clear:both;
         }
         body{
             font: 18px/1.4 arial, sans-serif;
             color: #333;
-            background: #ccc;
+            background-color: #ccc;
         }
         #tudo{
-            width:100%;
+            width: 100%;
             max-width: 1200px;
             min-width: 860px;
             margin: 0 auto;
-            background: #fff;
-
+            background-color: #fff;
         }
-        h1,h2,h3,h4,h5,h6{color: #036;}
-        main h1{margin-top: -25px;}
+        h1,h2,h3,h4,h5,h6{
+            color:#036;}
+            main h1{margin-top:-25px;}
         
         .topo_header{
             background: #036;
             padding: 5px 20px;
-
         }
-
         .topo_header h1{
-            font-size: 36 px;
+            font-size:36px;
             margin: 4px 0 2px 0;
         }
-
         .topo_header a{
             color: #fff;
             text-decoration: none;
         }
-
         .topo_header h2{
-            font-size: 20px;
+            font-size:20px;
             margin: 2px 0 4px 0;
             color: #fff;
         }
-
         .principal{
             width: 100%;
             padding: 20px 15px;
         }
-
         .rodape{
-            background: #036;
+            background-color: #036;
             color: #fff;
             text-align: center;
         }
-
-    pre{font-size: 14px;}
-    @media(max-width:1040px){
-        pre{font-size: 12px;}
-       }
-
-    /* Formulario */
+        pre{font-size: 14px;}
+        @media(max-width: 1040px){
+            pre{font-size: 12px}
+        }
+        /* -------------------------------------------Formulário -----------------------------------------------*/
+        input[autofocus]{
+            width: 450px;
+        }
         input[type="submit"]{
-            border:none;
+            border: none;
             border-radius: 6px;
             padding: 4px 10px;
-            color: rgb(255, 255, 255);
-            background: rgb (0, 102, 153);
+            color: rgb(255,255,255);
+            background: rgb(0,102,153);
         }
-
         input[type="submit"]:hover{
-            background: rgba(0, 102, 153, 0.7);
+            background: rgba(0,102,153,0,0.7)
         }
-    </style>
-
+</style>   
 </head>
 <body class="home">
     <div id="tudo">
         <div class="topo">
-        <header class="topo_header">
-            <hgroup>
-            <h1><a href="/">Formulario</a></h1>
-            <h2>Atributos</h2>
-            </hgroup>
-        </header>
-        </div> <!--Fim da div topo-->
+            <header class="topo_header">
+                <hgroup>
+                    <h1><a href="/">Formulário</a></h1>
+                    <h2>Atributos</h2>
+                </hgroup>            
+            </header>
+        </div> <!--fim da div topo-->
+        <div class="principal">
+            <main>
+                <section>
+                    <h1>Atributos para campos de formulários</h1>
+                    <form>
+                        <p><label>maxlength="6":<input type="text" maxlength="6" required></label>
+                        <input type="submit" value="OK">
+                        </p>
+
+                    </form>
+
+
+
+                </section>
+            </main>
+        </div> <!--Fim da div principal-->    
+            <div class="rodape">
+                <footer>
+                    <small>Exemplo Desenvolvido pelo aluno Kaio Eduardo Soares Fragosos</small>
+                </footer>
+            </div> <!--Fim da div rodape-->
+        </div>   
     </div>
     
-
-    <div class="principal">
-        <main>
-            <section>
-                <h1>Atributos para campos de formulário</h1>
-                <form>
-                    <p><label>maxlength= "6":<input type="text" maxlength="6" required></label>
-                    <input type="submit" values="ok"></p>
-                    </p>
-                </form>
-            </section>
-        </main>
-    </div>  <!--Fim da div principal-->
-    <div class="rodape">
-        <footer>
-            <small> Exemplo Desenvolvido por aluno Kaio</small>
-        </footer>
-    </div>
 </body>
 </html>
